@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="..." type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  integrity="sha384-eD41sORpV4Kk4u5KT7KCDr1R7QBoqz0AFD9i+JhFEn0AXU5azb0+4MeDF/szX2N"
+  crossorigin="anonymous"
+/>
 
+    <link rel="stylesheet" href="/Users/davidmorard/kDrive/Projects/portfolio/Resources/style.css" type="text/css">
+  <title>portfolio</title>
+</head>
+<body>
+ <!--Header-->
+ <header>
+      <!-- <nav>
+        <ul>
+          <li><a href="#" class="about">About</a></li>
+          <li><a href="#" class="project">Projects</a></li>
+          <li><a href="#" class="contact">Contact</a></li>
+        </ul>
+      </nav>-->
+        <!-- Loading bar container -->
+    <div class="loading-bar-container">
+        <div class="loading-bar" id="loading-bar"></div>
+    </div>
+ </header>
+  <!--Main content-->
+    <section class="landing">
+        <div class="page-hero-banner">
+            <h1>Mora<span class="bold-italic">d</span><span class="thin-italic">avid</span></h1>
+            <h2>Front end developer <span class="italic">still</span> baking</h2>
+        </div>  
+        <div class="skill-banner">
+          <h3 class="skill">HTML</h3>
+          <h3 class="skill">CSS3</h3>
+          <h3 class="skill" id="javascript">Javascript</h3>
+          <h3 class="skill" >Git</h3>
+          <h3 class="skill" id="figma">Figma</h3>
+      </div>
+    </section>
+    <!--About-->
+        <div class="photo">
+          <img src="/Users/davidmorard/kDrive/Projects/portfolio/Resources/Summer 2020.jpg">
+        </div>
+        <div class="about-me">
+          <h2 class="about-header">Hey, I'm David Morard</h2>
+          <p class="paragraph">I'm on an exciting journey of transformation from the world of hospitality to becoming a web developer.</p>
+          <p class="paragraph">With a love for design and creating, I'm all about crafting delightful digital experiences. I'm also a passionate traveller and surfer, finding inspiration in getting immersed in different cultures, and I find calmness in the ocean.</p>
+          <p class="paragraph">As a people person, I thrive on connecting with others and believe that the best projects are born out of collaboration. I'm not just retraining; I'm reinventing myself to bring a unique blend of hospitality warmth, creativity, and a touch of wanderlust to the web development scene.</p>
+        </div>
+    <!--Projects-->
+      <div class="project-banner-1">
+        <div class="project-container">
+          <div class="project-image">
+            <img src="/Users/davidmorard/kDrive/Projects/portfolio/Resources/Screenshot 2024-03-05 at 9.08.15 PM.png">
+          </div>
+        </div>
+      </div>
+      <div class="project-banner-2">
+        <div class="project-container">
+          <div class="project-image">
+            <img src="/Users/davidmorard/kDrive/Projects/portfolio/Resources/Screenshot 2024-03-05 at 9.11.31 PM.png">
+          </div>
+        </div>
+      </div>
+      <div class="project-banner-3">
+        <div class="project-container">
+          <div class="project-image">
+            <img src="/Users/davidmorard/kDrive/Projects/portfolio/Resources/Screenshot 2024-03-05 at 9.13.45 PM.png">
+          </div>
+        </div>
+      </div>
+  <!-- Footer -->
+<footer class="main-footer">
+  <div class="footer-content">
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>    
+    <div class="contact-form">
+      <h4>Let's Connect</h4>
+      <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
